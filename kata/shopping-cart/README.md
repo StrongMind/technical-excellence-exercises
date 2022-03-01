@@ -4,11 +4,31 @@ In this kata, you will implement the business domain objects/models for a simple
 
 Each of the language folders contains a starting project in order to start with.
 
-Implement the following functionality :
+There are 5 phases to this Kata that are built upon as you progress through each phase. Continuing on with each phase can help you with you refactoring skills when implementing additional functionality.
 
-* A Product has a price and a cost.
-* A Cart can hold many products.
-* A Cart knows how to total the Products that it holds.
-* A Product may be discounted in bulk (e.g It costs $5, but buying 3 costs $12)
-* A Product may be added in any order, and the discounts will still apply if several of them are present.
+## Phase 1
+* There will be just one shopping cart.
+* The shopping cart is reset when the application restarts.
+* The shopping cart can have items added to it.
+* The shopping cart can have items removed from it.
+* There is no limit to the number of items in the cart.
+* Each item in the cart will have a price.
+* The total of the shopping car can be calculated.
 
+## Phase 2
+* The shopping cart will have a tax rate.
+* The subtotal of the shopping cart can be calculated.
+* The sales tax for the shopping cart can be calculated.
+* The total can be calculated. (subtotal + sales tax)
+
+## Phase 3
+* The shopping cart can support Buy One Get One Free for any item.
+  * Buying two of the same item for any item gets you one free.
+
+## Phase 4
+* The shopping cart can support Buy One Get One Free for only specific items.
+  * Buying two of the same item for a specific item gets you one free.
+
+## Phase 5
+* The shopping cart can support Buy Two Get One xx% off.
+  * Buying two of the same item gets you a specified perctange off the third item.
