@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "L676b2IVRjIrCEEviNBRRsU71Hf2xfgTbh5fJl2G3M8=",
+  "Source": "PizzaServer.API",
+  "BasePath": "_content/PizzaServer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

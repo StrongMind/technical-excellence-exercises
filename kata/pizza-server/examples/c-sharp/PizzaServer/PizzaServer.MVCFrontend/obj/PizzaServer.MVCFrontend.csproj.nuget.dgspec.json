@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/markng/Projects/technical-excellence-exercises/kata/pizza-server/examples/c-sharp/PizzaServer/PizzaServer.MVCFrontend/PizzaServer.MVCFrontend.csproj": {}
+  },
+  "projects": {
+    "/Users/markng/Projects/technical-excellence-exercises/kata/pizza-server/examples/c-sharp/PizzaServer/PizzaServer.MVCFrontend/PizzaServer.MVCFrontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markng/Projects/technical-excellence-exercises/kata/pizza-server/examples/c-sharp/PizzaServer/PizzaServer.MVCFrontend/PizzaServer.MVCFrontend.csproj",
+        "projectName": "PizzaServer.MVCFrontend",
+        "projectPath": "/Users/markng/Projects/technical-excellence-exercises/kata/pizza-server/examples/c-sharp/PizzaServer/PizzaServer.MVCFrontend/PizzaServer.MVCFrontend.csproj",
+        "packagesPath": "/Users/markng/.nuget/packages/",
+        "outputPath": "/Users/markng/Projects/technical-excellence-exercises/kata/pizza-server/examples/c-sharp/PizzaServer/PizzaServer.MVCFrontend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/markng/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoBogus": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "spec.core": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
